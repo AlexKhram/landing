@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio AlexKhram</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <section class="about_me">
+            <div class="email">
+                <form action="#">
+                    <input type="text" value="Enter your name">
+                    <input type="email" value="Enter your email">
+                    <input type="text" value="Enter your website url">
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+            <div class="bio">
+                <div class="photo"></div>
+                <div class="bio_desc">
+                    <span class="bio_desc_titel">
+                    John Doe / Designer & Developer
+                    </span><br>
+                    <span class="bio_desc_text">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at ligula diam. Donec a nibh sit amet justo posuere convallis. Curabitur suscipit consectetur nisl, vel mattis sem tempor quis. Aenean enim lectus, aliquet sed dignissim vel, laoreet et justo. Nulla turpis nulla, dapibus in porttitor sit amet, luctus ac erat.
+                   </span>
+                </div>
+                <div class="bio_contact">
+                    Contact me: 123.456.789<br>
+                    Email me: johndoe@gmail.combr <br>
+                    <br>
+                    Follow me: Twitter   /   Facebook   /   Dribbble   /   Flickr
+                </div>
+            </div>
+            
+        </section>
+        <section class="portfolio"></section>
+    </div>
+</body>
+</html>

@@ -1,0 +1,330 @@
+* {
+	margin: 0;
+	padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.list_me {
+    width: 1200px;
+    height: 805px;
+    background: url(images/Portfolio-BG.png) no-repeat center bottom;
+    margin: 0 auto;
+    border: 1px solid rgba(0,0,0,0.0);
+}
+
+.email {
+    float: left;
+    width: 459px;
+    height: 429px;
+    margin-left: 130px;
+    margin-top: 121px;
+}
+
+.bio {
+    width: 457px;
+    height: 216px;
+    margin-top: 121px;
+    margin-left: 611px;        
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 393px;
+    height: 49px;
+    background-color: #ebebeb;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: italic;
+    color: #878787;
+    padding: 0 33px;
+    border-style: solid;
+    border-width: 1px;
+    border-color:  #ffffff;
+    border-radius: 3px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.3);
+    margin-bottom: 21px;
+}
+
+textarea {
+    width: 393px;
+    height: 160px;
+    background-color: #ebebeb;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: italic;
+    color: #878787;
+    padding: 0 33px;
+    border-style: solid;
+    border-width: 1px;
+    border-color:  #ffffff;
+    margin-bottom: 21px;
+    border-radius: 3px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.3);
+}
+
+input[type="submit"] {
+    border-style: solid;
+    border-width: 1px;
+    border-color:  #ffffff;
+    background: -webkit-linear-gradient(90deg, #c8c8c8 0%, #e3e3e3 100%);
+    background: -moz-linear-gradient(90deg, #c8c8c8 0%, #e3e3e3 100%);
+    background: -o-linear-gradient(90deg, #c8c8c8 0%, #e3e3e3 100%);
+    background: -ms-linear-gradient(90deg, #c8c8c8 0%, #e3e3e3 100%);
+    background: linear-gradient(0deg, #c8c8c8 0%, #e3e3e3 100%);
+    width: 127px;
+    height: 48px;
+    font-family: Georgia;
+    font-size: 18px;
+    font-weight: 400;
+    color: #7f7f7f;
+    box-shadow: 0 0 3px rgba(0,0,0,0.3);
+}
+
+input[type="submit"]:hover{
+    cursor: pointer;
+    background: linear-gradient(0deg, #e3e3e3 0%, #c8c8c8 100%);
+}
+
+.photo {
+    float: left;
+    margin-top: 8px;
+    width: 171px;
+    height: 171px;
+    background: url(images/Author.jpg) no-repeat;
+    background-size: 100%;
+    border-style: solid;
+    border-width: 1px;
+    border-color:  #ffffff;
+    border-radius: 3px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.3);
+}
+
+.bio_desc {
+    margin-left: 189px;
+    margin-top: 8px;
+    width: 268px;
+    height: 199px;
+}
+
+.bio_desc_titel {
+    font-family: Georgia;
+    color:  #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+}
+
+.bio_desc_text {
+    font-family: Georgia;
+    color:  #444343;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+}
+
+.bio_contact {
+    margin-top: 41px;
+    width: 363px;
+    height: 80px;
+    font-family: Georgia;
+    color:  #444343;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 22px;
+    text-align: left;
+}
+
+.about_me {   
+    width: 1200px;
+    height: 503px;
+    margin: 0 auto;
+}
+.amout_me_welcome {
+    width: 897px;
+    height: 104px;
+    margin-top: 62px;
+    margin-left: 153px;
+}
+
+.first_welcome{
+    font-family: Georgia;
+    color:  #444343;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.second_welcome{
+    font-family: Georgia;
+    color:  #444343;
+    font-size: 60px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.about_me_desc {
+    width: 999px;
+    height: 204px;
+    margin-top: 60px;
+    margin-left: 130px;
+}
+
+.about_me_first,
+.about_me_second,
+.about_me_third {
+    float:left;
+    width: 276px;
+    height: 204px;
+    margin-right: 55px;
+}
+.desc_titel{
+    font-family: Georgia;
+    color:  #444343;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    padding-left: 25px;
+}
+
+.desc_body{
+    margin-top: 10px;
+    font-family: Georgia;
+    color:  #444343;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+}
+
+.about_me_first .desc_titel {
+    background: url(images/User-Male.png) no-repeat 0 3.5px;
+}
+.about_me_second .desc_titel {
+    background: url(images/Chat-Bubble.png) no-repeat 0 3.5px;
+}
+.about_me_third .desc_titel {
+    background: url(images/Settings.png) no-repeat 0 3.5px;
+}
+
+.portfolio {
+    width: 1200px;
+    height: 805px;
+    margin: 0 auto;
+    background: url(images/Portfolio-BG.png) no-repeat;
+    border: 1px solid rgba(0,0,0,0.0);
+}
+.portfolio_sections {
+    margin-top: 85px;
+}
+.portfolio_section {
+    width: 960px;
+    height: 185px;
+    margin-left: 130px;
+    margin-bottom: 19px;
+}
+
+.portfolio_image{
+    float: left;
+    width: 220px;
+    height: 185px;
+    border-style: solid;
+    border-width: 1px;
+    border-color:  #ffffff;
+    border-radius: 3px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.3);
+/*    background-size: 100%;*/
+}
+
+.portfolio_image:hover {
+    -webkit-animation-name: myanims;
+/*    animation-name: myanims;*/
+    -webkit-animation-duration: 0.5s;
+/*    animation-duration: 0.5s;*/
+    -webkit-animation-timing-function: steps(10, end);
+/*    animation-timing-function: steps(10, end);*/
+    -webkit-animation-fill-mode: forwards; 
+/*    animation-fill-mode: forwards;*/
+}
+
+@keyframes myanims {
+
+    0% {background-size: 104%;}
+    100% {background-size: 110%;}
+}
+
+.portfolio_image_one {
+    background: url(images/Layer-7.png) no-repeat center;
+}
+
+.portfolio_image_two {
+    background: url(images/Layer-10.png) no-repeat center;
+}
+
+.portfolio_image_three {
+    background: url(images/Layer-11.png) no-repeat center;
+}
+
+.portfolio_section_titel {
+    padding-top: 25px;
+    margin-left: 240px;
+    font-family: Georgia;
+    color:  #444343;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+}
+
+.portfolio_section_body {
+    margin-top: 10px;
+    margin-left: 240px;
+    font-family: Georgia;
+    color:  #444343;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+}
+
+footer {
+    width: 1200px;
+    height: 128px;
+    margin: 0 auto;
+}
+
+.copyright {
+    float: left;
+    margin-top: 40px;
+    margin-left: 128px;
+    font-family: Georgia;
+color:  #444343;
+font-size: 12px;
+font-weight: 400;
+line-height: 30px;
+text-align: left;
+}
+
+.sicial {
+    float: right;
+    margin-right: 121px;
+    margin-top: 40px;
+}
+
+.media_icon {
+    float: left;
+    width: 20px;
+    height: 20px;
+}
+
+.facebook {
+    background: url(images/Icon-copy.png) no-repeat;
+    background-size: 100%;
+}
+
+.twitter {
+    background: url(images/Icon-copy-5.png)no-repeat 0 1.5px;
+    background-size: 100%;
+}
